@@ -1,0 +1,33 @@
+{
+    "bonusButtonLabels": [
+        "ボーナスを受け取る",
+        "Claim Bonus",
+        "Få bonus",
+        "Bonus einfordern",
+        "Reclamar bonificación",
+        "Reclamar bono",
+        "Récupérer un bonus",
+        "Riscatta bonus",
+        "Bónusz igénylése",
+        "Bonus claimen",
+        "Motta bonus",
+        "Odbierz bonus",
+        "Receber bónus",
+        "Resgatar Bônus",
+        "Obține bonusul",
+        "Vyzdvihnúť bonus",
+        "Lunasta bonus",
+        "Hämta bonus",
+        "Nhận thưởng",
+        "Bonusu al",
+        "Vyzvednout bonus",
+        "Διεκδίκηση μπόνους",
+        "Получаване на бонус",
+        "Получить бонус",
+        "เคลมโบนัส",
+        "领取奖励",
+        "領取額外獎勵",
+        "보너스 받기"
+    ],
+    "bonusButtonClass": "claimable-bonus__icon"
+}
