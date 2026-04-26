@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "name": "Twitch Channel Points Auto Collector",
+    "version": "1.0.0",
+    "description": "Twitchのチャンネルポイントボーナスを自動で回収します",
+    "permissions": ["storage"],
+    "host_permissions": ["https://www.twitch.tv/*"],
+    "content_scripts": [{
+        "matches": ["https://www.twitch.tv/*"],
+        "js": ["content.js"],
+        "run_at": "document_idle"
+    }],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "web_accessible_resources": [{
+        "resources": ["content.js", "config.json"],
+        "matches": ["https://www.twitch.tv/*"]
+    }]
+}
